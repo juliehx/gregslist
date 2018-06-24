@@ -1,0 +1,120 @@
+body {
+	font-family: Arial;
+}
+
+nav {
+	position:fixed;
+	background-color: LightGray;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+nav .title {
+	position: absolute;
+	left: 20px;
+}
+
+nav ul{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	right: 150px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+nav a, nav a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+.container {
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	font-size: 20px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	width: 500px;
+	margin-top: 15px;
+}
+
+button {
+	position: relative;
+	top: 5px;
+	background-color: white;
+	border: 1px solid #ddd;
+	left: 3px;
+}
+
+button img {
+	width: 30px;
+}
+
+main {
+	font-size: 0;
+}
+
+.pagination {
+	margin-top: 50px;
+}
+
+.pag {
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.prev {
+	border-radius: 5px 0 0 5px;
+}
+
+.page {
+	width: 150px;
+}
+
+.next {
+	border-radius: 0 5px 5px 0;
+}
+
+.results {
+	margin-top: 85px;
+	font-size: 15px;
+}
+
+.date {
+	margin-right: 20px;
+	color: gray;
+}
+
+.location {
+	margin-left: 20px;
+	color: gray;
+}
+
+.res{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+a, a:link {
+	text-decoration: none;
+	color: blue;
+}
